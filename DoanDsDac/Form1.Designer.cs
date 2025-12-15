@@ -82,7 +82,7 @@ namespace BigIntCalculator
             this.btnTru.Name = "btnTru";
             this.btnTru.Size = new System.Drawing.Size(150, 23);
             this.btnTru.TabIndex = 5;
-            this.btnTru.Text = "Tru (A × B)";
+            this.btnTru.Text = "Trừ (A - B)";
             this.btnTru.Click += new System.EventHandler(this.BtnTru_Click);
             // 
             // btnNhan
@@ -100,7 +100,7 @@ namespace BigIntCalculator
             this.btnChia.Name = "btnChia";
             this.btnChia.Size = new System.Drawing.Size(150, 23);
             this.btnChia.TabIndex = 5;
-            this.btnChia.Text = "Chia (A × B)";
+            this.btnChia.Text = "Chia (A / B)";
             this.btnChia.Click += new System.EventHandler(this.BtnChia_Click);
             // 
             // labelKQ
